@@ -84,6 +84,26 @@ margin-left: auto;
 }
 
 
+
+.header-social-list-icon {
+width: 12px;
+height: 16px;
+}
+
+.header-social-list-link {
+padding-right: 10px;
+}
+
+
+.header-social-list-icon {
+fill: var(--tel-link-color);
+}
+
+.header-social-list-icon:hover, 
+.header-social-list-icon:focus {
+fill: var(--accent-color);
+}
+
 .logo {
 margin-right: 93px;
 padding-top: 24px;
@@ -122,8 +142,6 @@ padding-bottom: 32px;
 .menu-link:focus {
 color: var(--accent-color);
 }
-
-
 
 .mail-link:hover,
 .mail-link:focus {
@@ -218,23 +236,27 @@ padding-bottom: 94px;
 }
 
 .vector-list {
+display: flex;
+justify-content: space-between;
 margin-bottom: 30px;
 }
 
-.vector-list-linc {
+
+.vector-list-icon {
+width: 70px;
+height: 70px;
+}
+
+.vector-list-item {
 display: flex;
 align-items: center;
 justify-content: center;
 width: 270px;
 height: 120px;
 border-radius: 4px;
-background: var(--background-about)   
+background-color: var(--background-about)   
 }
 
-.vector-list-icon {
-width: 70px;
-height: 70px;
-}
 
 .features-list {
 display: flex;
@@ -387,6 +409,7 @@ width: 44px;
 height: 44px;
 border-radius: 50%;
 background-color: var(--title-text-color);
+fill: #AFB1B8;
 }
 
 .social-list-link:hover,
@@ -402,6 +425,10 @@ background-color: var(--accent-color);
 .footer {
 padding-top: 60px;
 padding-bottom: 60px;
+}
+
+.footer-container-contact-list {
+display: flex;
 }
 
 .container-contact {
@@ -443,6 +470,47 @@ color: var(--title-text-color);
 .contact-link {
 font-family: var(--main-font);
 color: var(--contact-color);
+}
+
+
+.footer-social-list {
+display: flex;
+}
+
+.footer-container-contact-list-adress {
+margin-left: 70px;
+}
+
+.footer-social-contact-link {
+font-family: var(--main-font);
+margin-top: 12px;
+margin-bottom: 20px;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+
+
+
+.footer-social-list-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+fill: var(--title-text-color);
+}
+
+.footer-social-list-link:hover,
+.social-list-link:focus {
+fill: var(--title-text-color);
+background-color: var(--accent-color);
 }
 
 /* ========= END CONTACT INFORMATION ========== */
