@@ -230,6 +230,12 @@ padding-bottom: 94px;
 .vector-list {
 display: flex;
 justify-content: space-between;
+align-items: center;
+justify-content: center;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+background-color: var(--background-about);  
 margin-bottom: 30px;
 }
 
@@ -239,15 +245,6 @@ width: 70px;
 height: 70px;
 }
 
-.vector-list-item {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 270px;
-height: 120px;
-border-radius: 4px;
-background-color: var(--background-about)   
-}
 
 
 .features-list {
