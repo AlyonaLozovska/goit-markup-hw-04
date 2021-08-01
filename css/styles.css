@@ -84,19 +84,12 @@ margin-left: auto;
 }
 
 
-
-.header-social-list-icon {
-width: 12px;
-height: 16px;
-}
-
-.header-social-list-link {
-padding-right: 10px;
-}
-
-
 .header-social-list-icon {
 fill: var(--tel-link-color);
+margin-right: 10px;
+width: 12px;
+height: 16px;
+background-position: center;
 }
 
 .header-social-list-icon:hover, 
