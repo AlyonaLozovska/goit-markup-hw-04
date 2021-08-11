@@ -89,11 +89,11 @@ padding-left: 0px;
 
 
 .header-social-list-icon {
-fill: var(--tel-link-color);
 margin-right: 10px;
 width: 16px;
 height: 12px;
 background-position: center;
+fill: currentColor;
 }
 
 .icon-cell {
@@ -101,10 +101,7 @@ width: 10px;
 height: 16px;
 }
 
-.header-social-list-icon:hover, 
-.header-social-list-icon:focus {
-fill: var(--accent-color);
-}
+
 
 .logo {
 margin-right: 93px;
