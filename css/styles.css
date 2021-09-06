@@ -431,20 +431,14 @@ justify-content: space-between;
 }
 
 .customers-list-item {
-display: flex;
-justify-content: center;
-align-items: center;
 width: 170px;
 height: 92px;
-border: 1px solid #AFB1B8;
-box-sizing: border-box;
-border-radius: 4px;
 }
 
 
-.customers-list-icon {
-fill: #AFB1B8;
-}
+/* .customers-list-icon { */
+/* fill: #AFB1B8; */
+/* }  */
 
 
 .logo-one {
@@ -478,20 +472,24 @@ height: 43.93px;
 }
 
 .customers-item-icon {
-border: 1px solid #AFB1B8;
+display: flex;
+justify-content: center;
+align-items: center;
 box-sizing: border-box;
 border-radius: 4px;
+fill: #AFB1B8;
 }
 
 .customers-item-icon:hover,
 .customers-item-icon:focus {
-fill: var(--accent-color);
+border: 1px solid #AFB1B8;
+/* fill: var(--accent-color); */
 }
 
 .customers-list-icon:hover,
 .customers-list-icon:focus {
 fill: var(--accent-color);
-}
+} 
 
 /* ========= END REGULAR CUSTOMERS ========== */
 
@@ -739,13 +737,24 @@ color: var(--title-text-color);
 
 .filters-title:hover,
 .filters-title:focus {
-    color: var(--title-text-color);
-    background-color: var(--accent-color);
+color: var(--title-text-color);
+background-color: var(--accent-color);
 }
 
 /* ========= END FILTERS ========== */
 
 /* ========= PROJECT ========== */
+
+
+
+.project-list-link-wrapper {
+display: block;
+}
+
+.project-list-link-wrapper:hover,
+.project-list-link-wrapper:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .project-description {
 font-family: var(--main-font);
