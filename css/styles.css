@@ -113,8 +113,8 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 }
 
-.menu-item not(:last-child) {
-margin-right: 50px
+.menu-item:not(:last-child) {
+margin-right: 50px;
 height: 16px;
 }
 
@@ -151,8 +151,6 @@ line-height: 16px;
 .tel-link:hover,
 .tel-link:focus {
 color: var(--accent-color);
-padding-width: 122px;
-padding-height: 16px;
 }
 
 /* ========= END HEADER ========== */
@@ -259,9 +257,6 @@ margin-top: 30px;
 margin-left: 30px;
 }
 
-.features-list-item:not(:last-child) {
-/* margin-right: 30px; */
-}
 
 
 .features-title {
@@ -436,10 +431,6 @@ height: 92px;
 }
 
 
-/* .customers-list-icon { */
-/* fill: #AFB1B8; */
-/* }  */
-
 
 .logo-one {
 width: 41px;
@@ -478,18 +469,17 @@ align-items: center;
 box-sizing: border-box;
 border-radius: 4px;
 fill: #AFB1B8;
+border: 1px solid #AFB1B8;
+height: 100%;
 }
 
 .customers-item-icon:hover,
 .customers-item-icon:focus {
-border: 1px solid #AFB1B8;
-/* fill: var(--accent-color); */
+border-color: var(--accent-color);
+fill: var(--accent-color);
 }
 
-.customers-list-icon:hover,
-.customers-list-icon:focus {
-fill: var(--accent-color);
-} 
+
 
 /* ========= END REGULAR CUSTOMERS ========== */
 
@@ -531,9 +521,6 @@ color: var(--title-text-color);
 margin-top: 20px;
 }
 
-. footer-contact {
-/* margin-top: 9px; */
-}
 
 .contact-adress-link {
 font-family: var(--main-font);
